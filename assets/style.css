@@ -1,0 +1,27 @@
+html {
+    background-color: rgb(168, 214, 249);
+     font-family: "Arial", sans-serif;
+}
+
+body {
+  margin: 0 50px 0 50px; /* Applica 20 pixel di margine su tutti i lati */
+}
+
+.foto-sorso {
+  width: 250px;
+}
+
+.box {
+  display: inline-block;  /* boxes sit next to each other */
+  width: 270px;
+  /*padding: 10px;*/          /* space between content and border */
+  /* border: 1px solid #ff2d2d;*/ /* the edge of the box */
+  margin: 15px;            /* space outside the border, between boxes */
+  vertical-align: top;    /* aligns boxes at the top */
+  box-sizing: border-box; /* width includes padding and border */
+  }
+
+.box h3 {
+  margin: 0 0 8px 0;      /* a little space above the title */
+  text-align: left;
+}
